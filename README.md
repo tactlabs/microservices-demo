@@ -41,3 +41,25 @@ in the second and third windows.
  1. Allow it to register itself
  1. Kill the first account-server and see the web-server switch to using the new account-server - no loss of service.
 
+## Extra (Custom)
+mvn clean package
+
+Dashboard:
+java -jar target/microservice-demo-1.1.0.RELEASE.jar registration
+
+	http://localhost:1111/
+
+Accounts:
+java -jar target/microservice-demo-1.1.0.RELEASE.jar accounts
+	
+	http://localhost:2222/
+
+Accounts 2223:
+java -jar target/microservice-demo-1.1.0.RELEASE.jar accounts 2223
+
+	http://localhost:2223/
+
+Web:
+java -jar target/microservice-demo-1.1.0.RELEASE.jar web
+
+	http://localhost:3333/
