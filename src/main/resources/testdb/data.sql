@@ -1,0 +1,33 @@
+
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456789', 'Keri Lee');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456001', 'Dollie R. Schnidt');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456002', 'Cornelia J. LeClerc');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456003', 'Cynthia Rau');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456004', 'Douglas R. Cobbs');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456005', 'Michael Patel');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456006', 'Suzanne Wong');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456007', 'Ivan C. Jaya');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456008', 'Ida Ketterer');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456009', 'Laina Ochoa Lucero');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456010', 'Wesley M. Montana');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456011', 'Leslie F. McCleary');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456012', 'Sayeed D. Mudra');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456013', 'Pietronella J. Domingo');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456014', 'John S. O''Leary');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456015', 'Gladys D. Smith');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456016', 'Sally O. Thygesen');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456017', 'Rachel Vogt');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456018', 'Julia DeLong');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456019', 'Mark T. Rizzoli');
+insert into T_ACCOUNT (NUMBER, NAME) values ('123456020', 'Maria J. Angelo');
+
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010044901, 'http://image.us.z8games.com/cfna/weapon/300_169/C0441.png', 'AK-47-Camo', 'Adds 35 bullets to the AK-47, the most powerful weapon.');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010050001, 'http://image.us.z8games.com/cfna/weapon/300_169/C0492.png', 'AK-47-Camo', 'The powerful AK-47 rifle with added camouflage and an expanded 35 bullet magazine.');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010005202, 'http://image.us.z8games.com/cfna/weapon/300_169/C0050.png', 'AK-47-Camo', 'The powerful AK-47 rifle with added camouflage and an expanded 35 bullet magazine.');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010065401, 'http://image.us.z8games.com/cfna/weapon/300_169/C0610.png', 'AK-47-CFS 2014', 'Try out the CFS 2014 Weapons to see what the pros use, and compete on the battlefield with professional style!');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010048201, 'http://image.us.z8games.com/cfna/weapon/300_169/C0474.png', 'AK-47-Halloween', 'Scare your friends with this brand new AK47 Halloween Skin rifle!');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010009401, 'http://image.us.z8games.com/cfna/weapon/300_169/C0093.png', 'AK-47-Knife', '[Black Market Item]High power AK-47 with attached bayonet for melee combat. Useful for sudden melee combat or when running out of ammo.');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010009801, 'http://image.us.z8games.com/cfna/weapon/300_169/C0097.png', 'AK-47-Knife', '[Black Market Item]High power AK-47 with attached bayonet for melee combat. Useful for sudden melee combat or when running out of ammo.');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010030401, 'http://image.us.z8games.com/cfna/weapon/300_169/C0298.png', 'AK-47-Knife', 'This advanced version of the AK47-knife comes with a stylish black paint job and +5 extra ammo per clip.');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010077601, 'http://image.us.z8games.com/cfna/weapon/300_169/C0731.png', 'AK-47-Knife-Advanced', 'This advanced version of the AK47-knife comes with a stylish black paint job and +5 extra ammo per clip.');
+insert into T_WEAPON (WEAPONID, IMAGE, NAME, DESCRIPTION) values (2010033501, 'http://image.us.z8games.com/cfna/weapon/300_169/C0327.png', 'AK-47-Knife-Liquid Metal', 'The popular AK 47 knife returns with a sleek liquid metal coating.');

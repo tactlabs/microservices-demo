@@ -1,0 +1,38 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header :: copy"></head>
+
+<body>
+	<h1>Weapon List</h1>
+	
+	<div th:if="${weapons}">
+
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Weapon Number</th>
+					<th>Name</th>
+					<th>Count</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr th:each="weapon : ${weapons}">
+					<td><a href="weapon.html" th:href="@{|/weapons/${weapon.weaponid}|}" th:text="|${weapon.weaponid}|">11111111</a></td>
+					<td th:text="${weapon.name}">Name</td>
+					<td th:text="${weapon.balance}">0</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div style="text-align: right">
+		Options: <a th:href="@{/}">Home</a> | <a
+		th:href="@{/weapons/search}">Weapon Search</a>
+	</div>
+
+	<div th:replace="footer :: copy"></div>
+</body>
+</html>
